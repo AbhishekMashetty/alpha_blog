@@ -8,6 +8,7 @@ class ArticlesController < ApplicationController
 
 
 	def new
+		debugger
 		@article=Article.new
 	end
 
